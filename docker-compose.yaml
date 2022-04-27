@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  node:
+    image: "jacobkaczmarek/yolo"
+    ports:
+      - "8888:8888"
+    volumes:
+      - "./src:/src"
